@@ -1,0 +1,19 @@
+{
+  "name": "enterprise-web-development-labs-",
+  "version": "1.0.0",
+  "description": "The lab work for CM4025 Enterprise web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisCardy/Enterprise-Web-Development-Labs-.git"
+  },
+  "author": "Lewis Cardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LewisCardy/Enterprise-Web-Development-Labs-/issues"
+  },
+  "homepage": "https://github.com/LewisCardy/Enterprise-Web-Development-Labs-#readme"
+}
