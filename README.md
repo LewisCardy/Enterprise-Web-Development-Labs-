@@ -14,14 +14,13 @@ create views //pages will be stored here .html and .ejs
 
 server js goes outside of sub folders
 
-------------------------------------------------------------------------------
 IF START DOESNT WORK
 inside package.json 
 "scripts":{
   "test": "echo \"Error: no test specified\" && exit 1",
   "start": "server.js" //what is being started so the server file
 }
-------------------------------------------------------------------------------
+
 SERVER FILE
 //Imports
 const express = require('express')
