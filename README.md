@@ -13,6 +13,7 @@ create public \css : \js : \img   //self explanatory
 create views //pages will be stored here .html and .ejs
 
 server js goes outside of sub folders
+
 ------------------------------------------------------------------------------
 IF START DOESNT WORK
 inside package.json 
@@ -29,9 +30,9 @@ const port = 8080
  
 //Static files
 app.use(express.static('public))
-app.use('/css', express.static(__dirname + 'public/css'))
-app.use('/js', express.static(__dirname + 'public/js'))
-app.use('/img', express.static(__dirname + 'public/img'))
+app.use('/css', express.static(_-dirname + 'public/css')) //make sure 2 underscores
+app.use('/js', express.static(_-dirname + 'public/js'))
+app.use('/img', express.static(_-dirname + 'public/img'))
 
 //Set views
 app.set('views', './views')
@@ -39,7 +40,7 @@ app.set('view engine', 'ejs')
 
 //for html files
 app.get('', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html')
+  res.sendFile(_-dirname + '/views/index.html')
 })
 
 //for ejs
