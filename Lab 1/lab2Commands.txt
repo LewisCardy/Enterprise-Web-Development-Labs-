@@ -1,0 +1,16 @@
+    1  ip address
+    2  sudo echo "hello"
+    3  ip address
+    4  git clone https://github.com/LewisCardy/Enterprise-Web-Development-Labs-.git
+    5  ls
+    6  cd
+    7  ls
+    8  cd Web\ Development/
+    9  ls
+   10  cd Enterprise-Web-Development-Labs-/
+   11  cd Lab\ 1/
+   12  npm start
+   13  node index.js
+   14  sudo ufw allow 8080/tcp
+   15  node index.js
+   16  history > lab2Commands.txt
