@@ -55,5 +55,5 @@ app.get('/about', (req, res) => {
 //Listen on port 8080
 app.listen(port, () => console.info('Listening on port ${port}')) //Located on bottom of server
 
-
+http://soc-cm4025-35:8080/
 
